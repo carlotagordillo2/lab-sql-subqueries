@@ -83,7 +83,7 @@ FROM rental r
 INNER JOIN inventory i
 ON r.inventory_id = i.inventory_id
 INNER JOIN film f
-ON f.film_id = i.inventory_id
+ON f.film_id = i.film_id
 
 WHERE r.customer_id = 526; 
 
